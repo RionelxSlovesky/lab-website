@@ -1,0 +1,162 @@
+body {
+  max-width: 1500px;
+  margin-inline: auto;
+}
+
+/* disable overscrolling */
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif; /* For any text not explicitly defined */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+
+
+
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  font-family: "Playfair Display", serif;
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef;
+}
+
+
+  /* Carousel */
+
+  .carousel-item img {
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption .caption-bg {
+    background-color: rgba(0, 123, 255, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem;
+    color: #fff;
+  }
+
+
+/* Welcome Section */
+
+  #welcome {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
+  
+  #welcome h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  #welcome p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 767.98px) {
+    .carousel-item img {
+      height: 300px; /* Reduced height for smaller screens */
+    }
+  
+    .carousel-caption h5 {
+      font-size: 1.5rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+
+    #welcome h1 {
+      font-size: 2rem;
+    }
+  
+    #welcome p {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #welcome h1 {
+      font-size: 2.25rem;
+    }
+  
+    #welcome p {
+      font-size: 1.1rem;
+    }
+  }
