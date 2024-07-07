@@ -2,3 +2,34 @@
 .name {
     color: var(--color-one);
 }
+  
+  .team-section h2 {
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+    color: var(--color-one) !important;
+  }
+  
+  .team-section h4 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #495057;
+  }
+  
+  .team-section p {
+    color: #6c757d;
+  }
+
+
+@media (max-width: 767.98px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .team-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .team-section h4 {
+      font-size: 1rem;
+    }
+  }

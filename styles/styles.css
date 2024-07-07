@@ -2,11 +2,16 @@
   --color-one:  #4169E1;
   --color-two: #FFF700;
   --color-three: #FFFFF0;
+  --color-four: #fcfac2;
 }
 
+main {
+  margin-top: 74px;
+}
 
-
-
+.main-container {
+  background-color: var(--color-four);
+}
 
 body {
   max-width: 1500px;
@@ -280,6 +285,10 @@ footer a {
 
 
   @media (max-width: 767.98px) {
+
+    main {
+      margin-top: 62px;
+    }
 
     .navbar-brand {
       font-weight: bold;
