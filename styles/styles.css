@@ -1,7 +1,7 @@
 :root {
-  --color-one:  #4169E1;
-  --color-two: #FFF700;
-  --color-three: #FFFFF0;
+  --color-one: #4169e1;
+  --color-two: #fff700;
+  --color-three: #fffff0;
   --color-four: #fcfac2;
 }
 
@@ -23,14 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /* prevent text selection */
 body {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
-
 
 /* disable overscrolling */
 html {
@@ -41,16 +39,21 @@ html {
 body {
   height: 100%;
   overflow: auto;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 body::-webkit-scrollbar {
-  display: none;  /* Chrome and Safari */
+  display: none; /* Chrome and Safari */
 }
 
 /* fonts */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
@@ -63,7 +66,7 @@ body {
   font-family: "Source Sans 3", sans-serif; /* For any text not explicitly defined */
 }
 
-.navbar-brand  {
+.navbar-brand {
   font-family: "Playfair Display", serif;
   font-weight: 400;
 }
@@ -74,7 +77,7 @@ body {
 }
 
 .navbar-toggler {
-  border-color: #4169E1; /* Change the border color to #4169E1 */
+  border-color: #4169e1; /* Change the border color to #4169E1 */
 }
 
 .navbar-toggler-icon {
@@ -111,9 +114,6 @@ body {
   font-size: 1.1rem;
 }
 
-
-
-
 /* Navbar */
 
 .navbar {
@@ -144,31 +144,29 @@ body {
   color: var(--color-two);
 }
 
+/* Carousel */
 
-  /* Carousel */
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
 
-  .carousel-item img {
-    height: 600px;
-    object-fit: cover;
-  }
-  
-  .carousel-caption .caption-bg {
-    background-color: rgba(0, 123, 255, 0.7);
-    padding: 20px;
-    border-radius: 20px;
-  }
-  
-  .carousel-caption h5 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--color-two);
-  }
-  
-  .carousel-caption p {
-    font-size: 1.25rem;
-    color: var(--color-three);
-  }
+.carousel-caption .caption-bg {
+  background-color: rgba(0, 123, 255, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
 
+.carousel-caption h5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--color-two);
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+  color: var(--color-three);
+}
 
 /* Welcome Section */
 
@@ -197,19 +195,18 @@ body {
   position: relative;
   z-index: 2;
 }
-  
-  #welcome h1 {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-    color: var(--color-two);
-  }
-  
-  #welcome p {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: var(--color-three);
-  }
 
+#welcome h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: var(--color-two);
+}
+
+#welcome p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-three);
+}
 
 /* footer */
 
@@ -234,7 +231,6 @@ footer {
   color: var(--color-two);
 }
 
-
 footer h5 {
   margin-bottom: 1rem;
 }
@@ -250,7 +246,7 @@ footer a {
 }
 
 .social-link {
-  text-decoration: none !important
+  text-decoration: none !important;
 }
 
 .social-icon {
@@ -258,87 +254,71 @@ footer a {
 }
 
 .social-link:hover .social-icon {
-  filter: invert(100%) sepia(100%) saturate(200%) hue-rotate(45deg) brightness(80%);
+  filter: invert(100%) sepia(100%) saturate(200%) hue-rotate(45deg)
+    brightness(80%);
 }
 
 #footer-btm {
   background-color: var(--color-two);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media (max-width: 767.98px) {
-
-    main {
-      margin-top: 62px;
-    }
-
-    .navbar-brand {
-      font-weight: bold;
-      font-size: 1.5rem;
-    }
-    
-    .nav-link {
-      font-size: 1.1rem;
-    }
-
-    .dropdown-menu {
-      font-size: 1rem;
-    }
-
-    .carousel-item img {
-      height: 300px; /* Reduced height for smaller screens */
-    }
-  
-    .carousel-caption h5 {
-      font-size: 1.5rem;
-    }
-  
-    .carousel-caption p {
-      font-size: 1rem;
-    }
-
-    #welcome h1 {
-      font-size: 2rem;
-    }
-  
-    #welcome p {
-      font-size: 1.25rem;
-    }
-
-    .footer-section {
-      margin-bottom: 2rem;
-    }
-
-    .footer-header {
-      font-size: 1.5rem;
-    }
-    
+@media (max-width: 767.98px) {
+  main {
+    margin-top: 62px;
   }
 
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    #welcome h1 {
-      font-size: 2.25rem;
-    }
-  
-    #welcome p {
-      font-size: 1.1rem;
-    }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
   }
+
+  .nav-link {
+    font-size: 1.1rem;
+  }
+
+  .dropdown-menu {
+    font-size: 1rem;
+  }
+
+  .carousel-item img {
+    height: 300px; /* Reduced height for smaller screens */
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  #welcome h1 {
+    font-size: 2rem;
+  }
+
+  #welcome p {
+    font-size: 1.25rem;
+  }
+
+  .footer-section {
+    margin-bottom: 2rem;
+  }
+
+  .footer-header {
+    font-size: 1.5rem;
+  }
+
+  #footer-btm p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #welcome h1 {
+    font-size: 2.25rem;
+  }
+
+  #welcome p {
+    font-size: 1.1rem;
+  }
+}
