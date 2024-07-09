@@ -49,4 +49,22 @@
   .our-team-banner h1 {
     font-size: 2.5rem;
   }
+
+  .team-member {
+    padding-bottom: 30px;
+  }
+
+  .team-member-img {
+    max-width: 400px;
+  }
+
+
+}
+
+
+@media (max-width: 500px) {
+  .team-member-img {
+    max-width: 250px;
+  }
+
 }
