@@ -136,7 +136,12 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #f8f9fa;
+  background-color: var(--color-three);
+  margin-top: 10px;
+}
+
+.dropdown-item {
+  color: var(--color-one);
 }
 
 .dropdown-item:hover {
@@ -311,6 +316,10 @@ footer a {
   #footer-btm p {
     font-size: 0.8rem;
   }
+
+  .nav-link:hover:before {
+    content: "\00a0\00a0";
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -320,5 +329,9 @@ footer a {
 
   #welcome p {
     font-size: 1.1rem;
+  }
+
+  .nav-link:hover:before {
+    content: "\00a0\00a0";
   }
 }
