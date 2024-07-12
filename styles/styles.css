@@ -263,6 +263,12 @@ footer a {
     brightness(80%);
 }
 
+#footer-unh-banner {
+  width: 75%;
+  margin-top: 10px;
+  filter: brightness(0) invert(1);
+}
+
 #footer-btm {
   background-color: var(--color-two);
 }
