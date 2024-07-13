@@ -11,22 +11,11 @@
 .team-section h4 {
   margin-top: 1rem;
   font-size: 1.25rem;
-  color: #495057;
+  color: var(--color-five);
 }
 
 .team-section p {
-  color: #6c757d;
-}
-
-.our-team-banner {
-  background-image: url(../images/abstract.jpg);
-  color: var(--color-three);
-  background-size: cover;
-  padding: 80px 50px;
-}
-
-.our-team-banner h1 {
-  font-size: 3rem;
+  color: var(--color-six);
 }
 
 @media (max-width: 767.98px) {
@@ -40,14 +29,6 @@
 
   .team-section h4 {
     font-size: 1rem;
-  }
-
-  .our-team-banner {
-    padding: 50px 30px;
-  }
-
-  .our-team-banner h1 {
-    font-size: 2.5rem;
   }
 
   .team-member {
