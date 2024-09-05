@@ -1,10 +1,19 @@
-:root {
+/* :root {
   --color-one: #4169e1;
   --color-two: #fff700;
   --color-three: #fffff0;
   --color-four: #fcfac2;
   --color-five: #495057;
   --color-six: #6c757d;
+} */
+
+:root {
+  --color-one: #402A2E;
+  --color-two: #A69497;
+  --color-three: #fffff0;
+  --color-four: #c7b6b9;
+  --color-five: #403c01;
+  --color-six: #733702;
 }
 
 *,
@@ -145,7 +154,7 @@ body {
 
 .nav-link:hover {
   background-color: var(--color-one);
-  color: var(--color-two);
+  color: var(--color-three);
 }
 
 .dropdown-menu {
@@ -159,7 +168,7 @@ body {
 
 .dropdown-item:hover {
   background-color: var(--color-one);
-  color: var(--color-two);
+  color: var(--color-three);
 }
 
 /* Banner */
@@ -173,30 +182,6 @@ body {
 
 .banner h1 {
   font-size: 3rem;
-}
-
-/* Carousel */
-
-.carousel-item img {
-  height: 600px;
-  object-fit: cover;
-}
-
-.carousel-caption .caption-bg {
-  background-color: rgba(0, 123, 255, 0.7);
-  padding: 20px;
-  border-radius: 20px;
-}
-
-.carousel-caption h5 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: var(--color-two);
-}
-
-.carousel-caption p {
-  font-size: 1.25rem;
-  color: var(--color-three);
 }
 
 /* Welcome Section */
@@ -218,7 +203,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(7, 6, 73, 0.664);
+  background: rgba(22, 29, 2, 0.65);
   z-index: 1;
 }
 
@@ -230,7 +215,7 @@ body {
 #welcome h1 {
   font-size: 3rem;
   margin-bottom: 3rem;
-  color: var(--color-two);
+  color: var(--color-three);
 }
 
 #welcome p {
@@ -315,6 +300,8 @@ body {
 .flip-card-front h1 {
   position: relative;
   z-index: 2;
+  font-size: 2rem;
+  padding: 10px;
 }
 
 .flip-card-back {
@@ -330,13 +317,8 @@ body {
   border-radius: 10px;
 }
 
-.flip-card-back h1 {
-  margin: 10px 0;
-  font-size: 1.5rem;
-}
-
 .flip-card-back p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 10px 0;
 }
 
@@ -439,12 +421,26 @@ footer a {
     font-size: 1rem;
   }
 
+  #welcome {
+    padding: 5rem 0;
+  }
+
   #welcome h1 {
     font-size: 2rem;
   }
 
   #welcome p {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  #ongoing-project-head {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+
+  #ongoing-project-head h1 {
+    font-size: 2.5rem;
   }
 
   .footer-section {
