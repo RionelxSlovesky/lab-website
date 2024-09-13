@@ -38,7 +38,7 @@ main {
 body {
   max-width: 1500px;
   margin-inline: auto;
-  background-color: var(--color-three);
+  background-color: black;
 }
 
 html {
