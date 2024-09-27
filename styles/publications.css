@@ -9,7 +9,7 @@
 .research-year h2 {
   margin-bottom: 1.5rem;
   font-size: 2.5rem;
-  color: var(--color-one);
+  color: var(--color-three);
 }
 
 .research-item strong {
@@ -18,5 +18,5 @@
 
 .research-item p {
   font-size: 1.15rem;
-  color: var(--color-five);
+  color: var(--color-three);
 }
