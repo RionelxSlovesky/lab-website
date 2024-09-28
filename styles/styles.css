@@ -175,7 +175,7 @@ body {
 /* Banner */
 
 .banner {
-  background-image: url(../images/abstract.jpg);
+  background-image: url(../images/banner.jpg);
   color: var(--color-three);
   background-size: cover;
   padding: 80px 50px;
