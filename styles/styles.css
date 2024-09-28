@@ -248,7 +248,7 @@ body {
 .ongoing-projects-container h3 {
   text-align: left;
   color: var(--color-three);
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -261,6 +261,7 @@ body {
 
 .ongoing-projects-img {
   width: 100%;
+  filter: invert(1) brightness(2);
 }
 
 
