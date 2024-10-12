@@ -264,6 +264,41 @@ body {
   filter: invert(1) brightness(2);
 }
 
+.ongoing-projects {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+}
+
+/* News section */
+.news-section {
+  background-color: var(--color-three);
+  padding: 20px;
+  border-radius: 8px;
+  color: var(--color-seven);
+}
+
+.news-section h2 {
+  color: var(--color-seven);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-item h4 {
+  font-size: 1.8rem;
+  color: var(--color-seven);
+}
+
+.news-item p {
+  font-size: 1.2rem;
+  color: var(--color-seven);
+}
+
+
 
 /* footer */
 
