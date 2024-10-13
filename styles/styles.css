@@ -8,8 +8,8 @@
 } */
 
 :root {
-  --color-one: #402A2E;
-  --color-two: #A69497;
+  --color-one: #402a2e;
+  --color-two: #a69497;
   --color-three: #fffff0;
   --color-four: #c7b6b9;
   --color-five: #403c01;
@@ -145,7 +145,7 @@ body {
 }
 
 .navbar-brand:hover {
-  color: var(--color-four)
+  color: var(--color-four);
 }
 
 .nav-link {
@@ -271,6 +271,7 @@ body {
 }
 
 /* News section */
+
 .news-section {
   background-color: var(--color-three);
   padding: 20px;
@@ -297,8 +298,6 @@ body {
   font-size: 1.2rem;
   color: var(--color-seven);
 }
-
-
 
 /* footer */
 
@@ -362,6 +361,41 @@ footer a {
   color: var(--color-three);
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #welcome h1 {
+    font-size: 2.25rem;
+  }
+
+  #welcome p {
+    font-size: 1.1rem;
+  }
+
+  .nav-link:hover:before {
+    content: "\00a0\00a0";
+  }
+
+  .ongoing-projects-container {
+    padding: 0 40px;
+  }
+
+  .ongoing-projects-container h3 {
+    font-size: 1.9rem;
+  }
+
+  .ongoing-projects-container p {
+    font-size: 1.3rem;
+  }
+
+  .news-item h4 {
+    font-size: 1.2rem;
+    color: var(--color-seven);
+  }
+
+  .news-item p {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 767.98px) {
   main {
     margin-top: 62px;
@@ -422,6 +456,23 @@ footer a {
     font-size: 2.5rem;
   }
 
+  .ongoing-projects-container {
+    padding: 0 20px;
+  }
+
+  .ongoing-projects-container h3 {
+    font-size: 1.8rem;
+  }
+
+  .ongoing-projects-container p {
+    font-size: 1.2rem;
+  }
+
+  .ongoing-projects-img {
+    margin-top: 20px;
+    max-width: 200px;
+  }
+
   .footer-section {
     margin-bottom: 2rem;
   }
@@ -432,20 +483,6 @@ footer a {
 
   #footer-btm p {
     font-size: 0.8rem;
-  }
-
-  .nav-link:hover:before {
-    content: "\00a0\00a0";
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  #welcome h1 {
-    font-size: 2.25rem;
-  }
-
-  #welcome p {
-    font-size: 1.1rem;
   }
 
   .nav-link:hover:before {
