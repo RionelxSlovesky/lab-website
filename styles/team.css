@@ -22,6 +22,10 @@
   color: var(--color-two);
 }
 
+.team-member-img {
+  max-width: 250px;
+}
+
 @media (max-width: 767.98px) {
   .container {
     padding: 15px;
@@ -40,7 +44,7 @@
   }
 
   .team-member-img {
-    max-width: 400px;
+    max-width: 250px;
   }
 
 
