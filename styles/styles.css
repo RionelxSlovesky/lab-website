@@ -248,19 +248,19 @@ body {
 .ongoing-projects-container h3 {
   text-align: left;
   color: var(--color-three);
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 1.5rem;
 }
 
 .ongoing-projects-container p {
   color: var(--color-three);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 0;
 }
 
 .ongoing-projects-img {
-  width: 100%;
+  width: 80%;
   filter: invert(1) brightness(2);
 }
 
@@ -290,7 +290,7 @@ body {
 }
 
 .news-item h4 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--color-seven);
 }
 
