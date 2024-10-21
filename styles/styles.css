@@ -299,6 +299,11 @@ body {
   color: var(--color-seven);
 }
 
+.news-picture {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
 /* footer */
 
 footer {
