@@ -20,3 +20,14 @@
   font-size: 1.15rem;
   color: var(--color-three);
 }
+
+
+/* PDF */
+
+.pdf-container {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
