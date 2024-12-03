@@ -179,7 +179,7 @@ body {
 /* Banner */
 
 .banner {
-  background-image: url(../images/banner.svg);
+  background-image: url(../images/wavey-fingerprint.svg);
   color: var(--color-three);
   background-size: cover;
   padding: 80px 50px;
@@ -191,8 +191,8 @@ body {
 
 /* Welcome Section */
 
-body {
-  background-image: url(../images/banner.svg);
+#welcome-container {
+  background-image: url(../images/wavey-fingerprint.svg);
   background-attachment: fixed;
 }
 
@@ -222,15 +222,45 @@ body {
   color: var(--color-three);
 }
 
+#welcome2-container {
+  background-image: url(../images/wavey-fingerprint.svg);
+  background-attachment: fixed;
+}
+
+#welcome2 {
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
+  max-width: 1500px;
+  margin-inline: auto;
+}
+
+#welcome2 * {
+  position: relative;
+  z-index: 2;
+}
+
+#welcome2 p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-three);
+}
+
 /* Ongoing Projects Section */
 
-#ongoing-projects {
+#ongoing-projects-container {
   background-color: var(--color-three);
+}
+
+#ongoing-projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; 
   align-items: center; 
   gap: 20px;
+  max-width: 1500px;
+  margin-inline: auto;
 }
 
 #ongoing-projects > div {
@@ -242,6 +272,37 @@ body {
 
 .ongoing-projects-img {
   max-width: 200px;
+}
+
+/* News */
+
+#news-container {
+  background-color: var(--color-three);
+}
+
+#news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px;
+  max-width: 1500px;
+  margin-inline: auto;
+}
+
+#news h3 {
+  font-size: 1.2rem;
+}
+
+#news > div {
+  flex: 1;
+  min-width: 250px;
+  padding: 15px;
+  text-align: center;
+}
+
+.news-img {
+  max-width: 400px;
 }
 
 
