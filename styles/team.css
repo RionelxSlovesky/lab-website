@@ -22,6 +22,12 @@
   color: var(--color-two);
 }
 
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
 .team-member-img {
   max-width: 200px;
 }

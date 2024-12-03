@@ -287,6 +287,20 @@ body {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--color-three);
+  margin-bottom: 2.5rem;
+}
+
+#welcome-btn {
+  background-color: var(--color-three);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--color-one);
+  font-size: 1.2rem;
+}
+
+#welcome-btn:hover {
+  text-decoration: none;
+  background-color: var(--color-four);
 }
 
 #welcome2-container {
