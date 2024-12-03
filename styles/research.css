@@ -3,9 +3,11 @@
 }
 
 .card {
-  border: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  background-color: transparent;
+  border: 1px solid var(--color-three);
+  border-radius: 1rem;
 }
 
 .card:hover {
@@ -14,17 +16,12 @@
   cursor: pointer;
 }
 
-.card-img-top {
-  max-height: 200px;
-  object-fit: cover;
-}
-
 .card-title {
   font-size: 1.25rem;
-  color: var(--color-five);
+  color: var(--color-three);
 }
 
 .card-text {
   font-size: 1rem;
-  color: var(--color-six);
+  color: var(--color-three);
 }

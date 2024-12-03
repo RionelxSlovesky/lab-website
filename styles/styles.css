@@ -128,6 +128,30 @@ body {
   font-size: 1.1rem;
 }
 
+/* Animation */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease-out;
+}
+
+.animate-visible {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+
 /* Navbar */
 
 .custom-navbar {
